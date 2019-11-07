@@ -1,0 +1,116 @@
+
+html { 
+}
+
+body {
+	background-color: rgba(251,248,230,1);
+	background-image: url('../images/beige-paper.png');
+	font-size: 18px; 
+	padding: 2rem;
+	font-family: 'Montserrat', sans-serif;
+	display: block;
+}
+
+a:hover {text-decoration: none;
+	color: #fff;
+	-webkit-text-stroke: 0px rgba(204,142,12,1);
+	text-stroke: 0px rgba(204,142,12,1);
+}
+
+.bg-coral .inside  {
+	background-color: rgba(255,142,145,1);
+	background-image: url('../images/beige-paper_2.png');
+}
+
+.bg-yellow .inside  {
+	background-color: rgba(204,255,21,1);
+	background-image: url('../images/beige-paper.png');
+}
+
+.bg-paper .inside {
+	background-color: rgba(251,248,230,1);
+	background-image: url('../images/beige-paper.png');
+}
+
+.text-coral {
+	color: rgba(255,142,145,1);
+}
+
+.text-coral svg {
+	fill: rgba(255,142,145,1);
+}
+
+.text-paper {
+	color: rgba(251,248,230,1);
+}
+
+.text-yellow {
+	color: rgba(204,255,21,1);
+}
+
+.text-yellow svg {
+	fill: rgba(204,255,21,1);
+}
+
+.text-stroke {
+	-webkit-text-stroke: 1px rgba(204,142,12,1);
+	text-stroke: 1px rgba(204,142,12,1);
+}
+
+.text-stroke svg {
+	stroke: rgba(204,142,12,1);
+}
+
+.box {
+	background-color: rgba(251,248,230,1);
+	background-image: url('../images/beige-paper.png');
+ 	text-align: center;
+ 	font-weight: 700;
+ 	letter-spacing: 2px;
+ 	margin: 1rem auto;
+ 	padding: 10px;
+}
+
+.box .inside {
+	padding: 1.5rem 1.5rem .5rem 1.5rem;
+}
+
+.box.logo .inside {
+	padding: 3rem;
+
+}
+
+.box:before, .box:after {
+  position: absolute;
+  content: '';
+  border: solid rgba(204,142,12,1);;
+  z-index: -1;
+}
+
+.box:before {
+  top: -24px; bottom: -24px;
+  left: 24px; right: 24px;
+  border-width: 0 2px;
+}
+
+.box:after {
+  left: -24px; right: -24px;
+  top: 24px; bottom: 24px;
+  border-width: 2px 0;
+}
+
+svg {
+	overflow: visible !important;
+}
+
+p {
+	margin: 0 0 1rem 0;
+}
+
+p span.small {
+	font-size: .875rem;
+}
+
+span.no-wrap {
+	white-space: nowrap;
+}
