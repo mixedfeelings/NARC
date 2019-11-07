@@ -1,12 +1,12 @@
 
-html { 
+html {
 }
 
-body {
+.background {
 	background-color: rgba(251,248,230,1);
 	background-image: url('../images/beige-paper.png');
-	font-size: 18px; 
-	padding: 2rem;
+	font-size: 18px;
+	/*padding: 2rem;*/
 	font-family: 'Montserrat', sans-serif;
 	display: block;
 }
@@ -20,13 +20,15 @@ a:hover {text-decoration: none;
 .layer {
 	height: 100%;
 	left: 0;
-	position: absolute;
+	/*position: absolute;*/
 	top: 0;
 	width: 100%;
 }
 
 .layer.yellow {
-	mix-blend-mode:multiply; 
+	position: absolute;
+	top: 0;
+	mix-blend-mode:multiply;
 	z-index: 1;
 }
 
@@ -125,9 +127,9 @@ a:hover {text-decoration: none;
 
 
 .layer.coral .photo {
-	
 
-	
+
+
 }
 
 .box {
