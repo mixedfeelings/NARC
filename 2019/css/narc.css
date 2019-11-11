@@ -136,6 +136,12 @@ html {
 }
 
 
+.schedule .inside div,
+.schedule .inside h2  { 
+	display: block;
+	margin-bottom: 2rem; 
+}
+
 .photo {
 	background-size: cover;
 	background-position: center center;
