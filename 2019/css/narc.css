@@ -2,11 +2,13 @@
 html {
 }
 
+body { 
+	font-size: 16px; 
+}
+
 .background {
 	background-color: rgba(255,248,230,1);
 	background-image: url('../images/beige-paper.png');
-	font-size: 18px;
-	/*padding: 2rem;*/
 	font-family: 'Montserrat', sans-serif;
 	display: block;
 	position: absolute;
@@ -32,6 +34,13 @@ html {
 	text-decoration: underline;
 }
 
+.layer.coral .box a:hover,
+.layer.yellow .box a:hover,
+.box a:hover {
+	text-decoration: none;
+	color: #fffff;
+}
+
 .layer {
 	height: 100%;
 	left: 0;
@@ -39,6 +48,7 @@ html {
 	top: 0;
 	width: 100%;
 	mix-blend-mode:multiply;
+	transform: translateZ(0);
 }
 
 .layer.yellow {
@@ -211,6 +221,7 @@ html {
   left: -24px; right: -24px;
   top: 24px; bottom: 24px;
   border-width: 2px 0;
+  display: none;
 }
 
 svg {
@@ -227,4 +238,12 @@ p span.small {
 
 span.no-wrap {
 	white-space: nowrap;
+}
+
+@media (min-width: 576px) { 
+	.box:after,
+	.layer.coral .box:after,
+	.layer.yellow .box:after {
+		display: block;
+	}
 }
