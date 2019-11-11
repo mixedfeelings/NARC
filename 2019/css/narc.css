@@ -32,13 +32,6 @@ html {
 	text-decoration: underline;
 }
 
-.layer.coral .box a:hover,
-.layer.yellow .box a:hover,
-.box a:hover {
-	text-decoration: none;
-	color: #fffff;
-}
-
 .layer {
 	height: 100%;
 	left: 0;
