@@ -15,10 +15,28 @@ html {
 	height: 100%;
 }
 
-a:hover {text-decoration: none;
-	color: #fff;
-	-webkit-text-stroke: 0px rgba(204,142,12,1);
-	text-stroke: 0px rgba(204,142,12,1);
+
+.layer.yellow .box a {
+	color: rgba(204,255,21,1);
+	text-decoration: underline;
+}
+
+.layer.coral .box a {
+	color: rgba(255,142,145,1);
+	text-decoration: underline;
+
+}
+
+.underline,
+.box a {
+	text-decoration: underline;
+}
+
+.layer.coral .box a:hover,
+.layer.yellow .box a:hover,
+.box a:hover {
+	text-decoration: none;
+	color: #fffff;
 }
 
 .layer {
