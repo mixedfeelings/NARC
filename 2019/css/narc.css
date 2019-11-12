@@ -15,6 +15,8 @@ body {
 	overflow: scroll;
 	width: 100%;
 	height: 100%;
+	background-color: rgba(255,248,230,1);
+	background-image: url('../images/beige-paper.png');
 }
 
 
@@ -83,6 +85,10 @@ body {
 .text-coral svg {
 	/*	fill: rgba(255,142,145,1); */
 	fill: #FFFFFF;
+}
+
+.about.text-coral  svg {
+	fill: rgba(255,142,145,1);
 }
 
 .text-paper {
@@ -224,6 +230,10 @@ body {
   display: none;
 }
 
+.flag {
+	margin: 3rem auto 2rem auto;
+}
+
 svg {
 	overflow: visible !important;
 }
@@ -247,3 +257,7 @@ span.no-wrap {
 		display: block;
 	}
 }
+
+@media (min-width: 768px) { 
+	body {font-size: 18px;}
+ }
