@@ -6,6 +6,8 @@ body {
 	font-size: 16px; 
 }
 
+.when h3 {font-size: 1.5rem;}
+
 .background {
 	background-color: rgba(255,248,230,1);
 	background-image: url('../images/beige-paper.png');
